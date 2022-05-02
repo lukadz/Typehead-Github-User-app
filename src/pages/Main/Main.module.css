@@ -1,0 +1,44 @@
+.container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 40px;
+  background-color: rgb(112, 165, 244);
+  margin-top: 20vh;
+}
+.searchbar {
+  padding: 10px;
+}
+.container label{
+  font-size: 25px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+.users{
+  text-decoration: none;
+  color: black;
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+.users img{
+  width: 100px;
+  height:100px;
+}
+.users p{
+  margin-left: 80px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+  background-color:lightblue ;
+  
+}
+
+@media only screen and (max-width: 500px) {
+  .container{
+    width: 300px;
+  }
+}
